@@ -1,63 +1,57 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p,
-form, input, div {
-  margin: 0;
-  padding: 0;
+{
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Avenir Next";
+  margin: 0;
+  font-family: "Amatic SC";
 }
 
 li {
-  list-style: none;
-
+list-style: none;
+float: left;
+padding: 33px 20px;
 }
+
+.header {
+  background-color: #FEE9D6;
+  height: 100px;
+  padding: 20px 40px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 60px;
+  padding: 20px 40px;
+}
+
+.header-right {
+  float: right;
+  font-size: 40px;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(60, 60,60, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://i.postimg.cc/c4nDqT9Y/Untitled-design-3.png);
+  padding: 180px 0 500px 0;
+  background-image: url(https://i.postimg.cc/Ss8gPrPC/Cream-and-Brown-Curvy-Serif-Typefaces-Simple-Presentation.png);
   background-size: cover;
   color: white;
-  text-align: center;
-}
-
-.container {
-  width: 1170px;
-  margin: 0 auto;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 60px;
-  letter-spacing: 9px;
-  margin-bottom: 20px;
-}
-
-.top-wrapper p {
-  opacity: 1.0;
-  margin-bottom: 5px;
-}
-
-.btn-wrapper {
-  margin: 25px 0;
-}
-
-.btn-wrapper p {
-  margin: 25px 0;
-}
-
-.signup {
-  background-color: #865B45;
-}
-
-.Confide {
-  background-color: #865B45;
-  margin-right: 25px;
-}
-
-.Merchandise {
-  background-color: #865B45;
 }
 
 .btn {
@@ -65,139 +59,106 @@ li {
   color: white;
   display: inline-block;
   opacity: 0.8;
-  border-radius: 4px;
+  font-size: 40px;
+}
+.instagram {
+  background-color: #5A352C;
 }
 
-.btn:hover {
-  opacity: 1;
+.merchandise {
+  background-color: #ECA766;
+  margin-right: 30px;
 }
 
-.fa {
-  margin-right: 5px;
+.consultation {
+  background-color: #E59E82;
 }
 
-body {
-  font-family: "Avenir Next";
+.btn-wrapper {
+  margin: 40px 0;
+  text-align: center;
+  font-size: 50px;
 }
 
-li {
-  list-style: none;
-
-}
-.header {
-  background-color: #506369;
-  color: #fff;
-  height: 90px;
+.btn-wrapper p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 40px;
 }
 
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
+.logo {
+  width: 124px;
+  margin-top: 20px;
 }
-
-.header-list {
-  float: center;
-}
-
-.header-list li {
-  float: left;
-  padding: 33px 20px;
-}
-
-.main {
-padding: 60px 20px;
- }
-
- .top-wrapper {
-   padding: 180px 0 100px 0;
-   background-image: url(https://i.postimg.cc/c4nDqT9Y/Untitled-design-3.png);
-   background-size: cover;
-   color: black;
-   text-align: center;
- }
 
 .contents {
-   height: 600px;
-   margin-top: 100px;
-   float: center;
- }
-
-img {
-  height: 400px;
-  width: 300px;
-}
- .section-title {
-   border-bottom: 3px solid #865B45;
-   font-size: 28px;
-   padding-bottom: 15px;
-   margin-bottom: 50px;
- }
-
- .contents-item {
-   float: left;
-   margin-right: 40px;
- }
-
- .contents-item p {
-   font-size: 24px;
-   margin-top: 30px;
+height: 500px;
+margin-top: 100px;
 }
 
-.heading {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  color: #5f5d60;
+.contents h3{
+  font-size: 50px;
+  padding-bottom: 5px;
 }
 
-.heading h2 {
-  font-weight: normal;
+.section-title {
+border-bottom: 1px solid #FEE9D6;
+font-size: 28px;
+padding-bottom: 15px;
+margin-bottom: 50px;
 }
 
-.lesson { 
-  float:left; 
-  width:53%; 
+.contents-item {
+float: center;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.contents-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
 .message-wrapper {
-  border-bottom: 3px solid #865B45;
+  border-bottom: 10px solid #865b45
   padding-bottom: 10px;
-  text-align: center;
+  text-allign: center;
 }
 
 .message {
   padding: 20px 40px;
   background-color: #6a422f;
   cursor: pointer;
-  box-shadow: 0 7px #889eab;
+  box-shadow: 0 7px #889eab
 }
 
-.message:active {
+.message: active {
   position: relative;
-  top: 350px;
+  top: 350px
   box-shadow: none;
 }
 
- .contact-form {
-   padding-top: 50px;
- }
+.contact-form {
+padding-top: 5px;
+font-size: 30px;
+text-align: center;
+border-bottom: 1px solid #FEE9D6;
+}
 
- input, textarea {
+input, textarea {
   width: 1000px;
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 30px;
-  font-size: 18px;
-  border: 3px solid #865B45;
-}
-.contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
+  font-size: 28px;
+  border: 3px solid #5A352C;
 }
 
-.footer {
-  background-color: #865B45;
+.contact-submit {
+  background-color: #5A352C;
   color: #fff;
-  height: 70px;
-  padding: 20px;
 }
