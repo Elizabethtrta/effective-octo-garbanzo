@@ -1,0 +1,27 @@
+@media all and (max-width: 780px) {
+  header {
+    height: 120px;
+  }
+
+  .header-right {
+    display
+  }
+
+  .container {
+    margin: auto
+  }
+
+  .container a {
+    margin: auto;
+  }
+
+  .logo
+  margin-left: 50px;
+  width: 100px;
+}
+
+.btn-wrapper
+font-size: 70px;
+letter-spacing: 1px;
+}
+@media screen and (max-width: 500px) {
